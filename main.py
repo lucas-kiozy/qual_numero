@@ -32,7 +32,7 @@ for rodada in range(1, total_tentativas + 1):
     menor   = chute < numero_secreto
 
     if(acertou):
-        print("\n*-*-*Parabéns! Você acertou!*-*-*")
+        print("\n*-* Parabéns! Você acertou! *-*")
         break
     else:
         if(maior):
@@ -43,3 +43,4 @@ print("\n-----------------------------")
 print("-------- FIM DO JOGO --------")
 print("-----------------------------")
 print("Número secreto: {}".format(numero_secreto))
+input()
